@@ -1,0 +1,154 @@
+
+/*body, h1, h2, p, div, span, img, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  header.banner {
+    background: url('assets/images/banner-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  header .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  header button {
+    background-color: #00aaff;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #0088cc;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  section#course-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  section#course-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section#course-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .module {
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  section#transform-world p {
+    width: 170px;
+    height: 141px;
+    gap: 0px;
+    opacity: 0px;
+    word-wrap: break-word;
+
+
+
+
+    
+
+  }
+
+  section#transform-world {
+    background: url('/assets/images/woman-code.png') no-repeat center center/cover;
+    width: 1440px;
+    height: 363px;
+    top: 1138px;
+    gap: 0px;
+    border: 1px 1px 1px 0px;
+    opacity: 0px;
+    
+
+
+  }
+  
+  section#professional-challenges {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  section#professional-challenges img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  footer .dio-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
